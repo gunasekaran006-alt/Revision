@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+.card{
+    max-width: 300px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 30px auto;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.btn{
+    background-color: green;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 8px 12px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.info{
+    background-color: rgb(145, 233, 145);
+    border: none;
+    outline: green solid;
+    color: white;
+    padding: 8px 12px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    
+}
