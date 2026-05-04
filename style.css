@@ -17,3 +17,13 @@ body{
     max-width: 1200px;
     margin: auto;
 }
+
+.product-card{
+    border: 1px solid #ddd;
+    padding: 18px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-align: left;
+}
