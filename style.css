@@ -1,37 +1,5 @@
-.hero-section{
-            background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.65)),
-            url("https://images.pexels.com/photos/3387165/pexels-photo-3387165.jpeg?_gl=1*1w2nezv*_ga*MTMxNTgzNzk5LjE3NjkwMDUwMTM.*_ga_8JE65Q40S6*czE3NjkwMDUwMTIkbzEkZzEkdDE3NjkwMDUwNDQkajI4JGwwJGgw");
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            min-height: 90vh;
-            color: white;
-        }
-
-        .activity-card-img{
-            height: 200px;
-            width: 100%;
-            object-fit: cover;
-        }
-
-        .ticket-card{
-            background: linear-gradient(to right, #f8f9fa 0%, #fff 50%, #f8f9fa 100%);
-            border: 2px dashed #007bff;
-            overflow: hidden;
-        }
-
-        .ticket-header{
-            background-color: #007bff;
-            color: white;
-        }
-
-        ticket-logo{
-            font-size: 2rem;
-            font-weight: bold;
-        }
-
-        .performed-line{
-            border-top: 1px dashed #6c757d;
-            margin: 20px 0;
-        }
-
+h1:hover{
+    color: green;
+    font-size: 2rem;
+    text-decoration: underline;
+}
