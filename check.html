@@ -271,3 +271,30 @@ bi bi-house-fill ----- home icon
 d-none d-lg-inlin
 navbar-nav
 container-fluid
+
+------------------------------------------------------------------------
+day 20 : javascript - introduction
+
+var: global scope variable (also Function / Local scope) | var with same variable name +  more diff value created
+Redeclaration - > ex: var deposit = 5000; /  var deposit = 15000;
+
+let: Block scope variable | without let  + same variable name + diff value created 
+Reassignment - > ex: let deposit = 5000; -> deposit = 1000 / 2000 / 3000
+
+const: variables value cannot be changed - ( reassign / redeclare - not possible)
+FIXED -> const deposit = 5000;
+
+// * Hoisting only supports the var keyword
+// Flag Hoisting
+console.log(tax);
+var tax = 18; // undefined
+
+console.log(tax);
+let tax = 18; // referenceError
+
+console.log(tax);
+const tax = 18; // referenceError
+
+--------------------------------------------------------------------------
+
+
