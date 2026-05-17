@@ -50,4 +50,29 @@ function welcome(){
 }
 welcome();
 
-let
+// object
+let userProfile = {
+username: "Lakshmi Narasimhan",
+    accountNumber: 9997131834123,
+    branch: "Tamil nadu",
+    country: "India",
+    accountActive: true,
+    accountBalance: undefined,
+    accountType: ['Salary Account', 'Personal Account']
+};
+
+let updateAccount = userProfile;
+updateAccount.branch= "kumbakonam";
+
+console.log(typeof userProfile); // object
+console.log(userProfile.accountNumber);
+console.log(userProfile); // kumbakonam
+console.log(updateAccount); // kumbakonam
+
+// (or)
+
+userProfile.branch= "kumbakonam";
+
+console.log(typeof userProfile); // object
+console.log(userProfile.accountNumber);
+console.log(userProfile); // kumbakonam
