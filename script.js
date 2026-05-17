@@ -43,3 +43,11 @@ console.log(Array.isArray(skills)); // True ( because this method used to confir
 //but 
 console.log(skills); // object
 
+// function
+function welcome(){
+    console.log("Hey User You're Logged in");
+    console.log("You can access your courses");
+}
+welcome();
+
+let
